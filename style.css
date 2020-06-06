@@ -5,7 +5,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #bebebe;
     font-weight: 600;
-
+    margin-top: 7em;
 }
 
 .enlace {
@@ -77,7 +77,7 @@ span {
     }
 
     body {
-        margin: 6.3em auto;
+        margin-top: 10.3em;
     }
 
     .grd {
