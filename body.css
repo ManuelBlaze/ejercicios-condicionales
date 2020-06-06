@@ -1,0 +1,9 @@
+body {
+    margin: 2.4em auto;
+}
+
+@media (min-width: 768px) {
+    body {
+        margin: 6.3em auto;
+    }
+}

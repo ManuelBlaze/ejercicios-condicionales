@@ -1,6 +1,6 @@
 body {
     padding: 1em;
-    margin: 1.3em auto;
+    margin: 5.5em auto;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     background-color: #bebebe;
@@ -36,6 +36,7 @@ form {
 
 form input {
     margin: 1em auto;
+    max-width: 100%;
 }
 
 form input:last-child {
@@ -64,6 +65,7 @@ span {
 .grd {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2em;
 }
 
 @media (min-width: 768px) {
@@ -79,5 +81,6 @@ span {
     .grd {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0;
     }
 }
