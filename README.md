@@ -1,2 +1,2 @@
 # ejercicios-condicionales
- Ejercicisos Condicionales PHP
+ Ejercicios Condicionales PHP
