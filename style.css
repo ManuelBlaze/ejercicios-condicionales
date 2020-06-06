@@ -28,11 +28,6 @@ a:hover {
     color: chocolate;
 }
 
-p {
-    padding-left: 2em;
-    padding-right: 2em;
-}
-
 form {
     padding: 1em;
     background-color: rgba(255, 255, 255, 0.719);
@@ -68,7 +63,7 @@ span {
 
 .grd {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 }
 
 @media (min-width: 768px) {
@@ -79,5 +74,10 @@ span {
 
     body {
         margin: 6.3em auto;
+    }
+
+    .grd {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
