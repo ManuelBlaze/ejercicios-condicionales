@@ -1,6 +1,6 @@
 body {
     padding: 1em;
-    margin: 6.3em auto;
+    margin: 1.3em auto;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     background-color: #bebebe;
@@ -29,8 +29,8 @@ a:hover {
 }
 
 p {
-    padding-left: 15em;
-    padding-right: 15em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 form {
@@ -69,4 +69,15 @@ span {
 .grd {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 768px) {
+    p {
+        padding-left: 15em;
+        padding-right: 15em;
+    }
+
+    body {
+        margin: 6.3em auto;
+    }
 }
